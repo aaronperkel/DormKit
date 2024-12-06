@@ -1,10 +1,10 @@
 '''
-app.py
+routes.py
 DORMKIT V1.0
 '''
 
 from flask import Flask, render_template
-import HC_05
+import hardware.HC_05 as HC_05
 
 app = Flask(__name__)
 

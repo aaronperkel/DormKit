@@ -17,7 +17,7 @@ from datetime import datetime
 import requests
 import time
 from io import BytesIO
-import HC_05 as control
+import hardware.HC_05 as control
 import smbus
 
 
